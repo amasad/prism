@@ -1,6 +1,6 @@
 {
   "name": "prism",
-  "repo": "amasad/prism"
+  "repo": "amasad/prism",
   "version": "0.0.0",
   "main": "prism.js",
   "authors": "Lea Verou",
