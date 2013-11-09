@@ -1,0 +1,15 @@
+{
+  "name": "prism",
+  "repo": "amasad/prism"
+  "version": "0.0.0",
+  "main": "prism.js",
+  "authors": "Lea Verou",
+  "description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
+  "license": "MIT",
+  "scripts": [
+    "prism.js"
+  ],
+  "styles": [
+    "prism.css"
+  ]
+}
