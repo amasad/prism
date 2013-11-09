@@ -10,6 +10,7 @@
     "prism.js"
   ],
   "styles": [
-    "prism.css"
+    "prism.css",
+    "funky.css"
   ]
 }

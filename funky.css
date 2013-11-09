@@ -1,0 +1,105 @@
+/**
+ * prism.js Funky theme
+ * Based on “Polyfilling the gaps” talk slides http://lea.verou.me/polyfilling-the-gaps/
+ * @author Lea Verou
+ */
+
+.prism-theme-funky code[class*="language-"],
+.prism-theme-funky pre[class*="language-"] {
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+.prism-theme-funky pre[class*="language-"] {
+	padding: .4em .8em;
+	margin: .5em 0;
+	overflow: auto;
+	background: url('data:image/svg+xml;charset=utf-8,<svg%20version%3D"1.1"%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20width%3D"100"%20height%3D"100"%20fill%3D"rgba(0%2C0%2C0%2C.2)">%0D%0A<polygon%20points%3D"0%2C50%2050%2C0%200%2C0"%20%2F>%0D%0A<polygon%20points%3D"0%2C100%2050%2C100%20100%2C50%20100%2C0"%20%2F>%0D%0A<%2Fsvg>');
+	background-size: 1em 1em;
+}
+
+.prism-theme-funky code[class*="language-"] {
+	background: black;
+	color: white;
+	box-shadow: -.3em 0 0 .3em black, .3em 0 0 .3em black;
+}
+
+/* Inline code */
+.prism-theme-funky :not(pre) > code[class*="language-"] {
+	padding: .2em;
+	border-radius: .3em;
+	box-shadow: none;
+}
+
+.prism-theme-funky .token.comment,
+.prism-theme-funky .token.prolog,
+.prism-theme-funky .token.doctype,
+.prism-theme-funky .token.cdata {
+	color: #aaa;
+}
+
+.prism-theme-funky .token.punctuation {
+	color: #999;
+}
+
+.prism-theme-funky .namespace {
+	opacity: .7;
+}
+
+.prism-theme-funky .token.property,
+.prism-theme-funky .token.tag,
+.prism-theme-funky .token.boolean,
+.prism-theme-funky .token.number,
+.prism-theme-funky .token.constant,
+.prism-theme-funky .token.symbol {
+	color: #0cf;
+}
+
+.prism-theme-funky .token.selector,
+.prism-theme-funky .token.attr-name,
+.prism-theme-funky .token.string,
+.prism-theme-funky .token.builtin {
+	color: yellow;
+}
+
+.prism-theme-funky .token.operator,
+.prism-theme-funky .token.entity,
+.prism-theme-funky .token.url,
+.prism-theme-funky .language-css .token.string,
+.prism-theme-funky .toke.variable {
+	color: yellowgreen;
+}
+
+.prism-theme-funky .token.atrule,
+.prism-theme-funky .token.attr-value,
+.prism-theme-funky .token.keyword {
+	color: deeppink;
+}
+
+
+.prism-theme-funky .token.regex,
+.prism-theme-funky .token.important {
+	color: orange;
+}
+
+.prism-theme-funky .token.important {
+	font-weight: bold;
+}
+
+.prism-theme-funky .token.entity {
+	cursor: help;
+}
+
