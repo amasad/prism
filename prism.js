@@ -9,7 +9,7 @@
 // Private helper vars
 var lang = /\blang(?:uage)?-(?!\*)(\w+)\b/i;
 
-var _ = self.Prism = {
+var _ = self.Prism = module.exports = {
 	util: {
 		type: function (o) { 
 			return Object.prototype.toString.call(o).match(/\[object (\w+)\]/)[1];
