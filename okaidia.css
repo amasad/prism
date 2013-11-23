@@ -1,0 +1,113 @@
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+.prisim-theme-okaidia code[class*="language-"],
+.prisim-theme-okaidia pre[class*="language-"] {
+	color: #f8f8f2;
+	text-shadow: 0 1px rgba(0,0,0,0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+.prisim-theme-okaidia pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+.prisim-theme-okaidia :not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+.prisim-theme-okaidia :not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+.prisim-theme-okaidia .token.comment,
+.prisim-theme-okaidia .token.prolog,
+.prisim-theme-okaidia .token.doctype,
+.prisim-theme-okaidia .token.cdata {
+	color: slategray;
+}
+
+.prisim-theme-okaidia .token.punctuation {
+	color: #f8f8f2;
+}
+
+.prisim-theme-okaidia .namespace {
+	opacity: .7;
+}
+
+.prisim-theme-okaidia .token.property,
+.prisim-theme-okaidia .token.tag,
+.prisim-theme-okaidia .token.constant,
+.prisim-theme-okaidia .token.symbol {
+	color: #f92672;
+}
+
+.prisim-theme-okaidia .token.boolean,
+.prisim-theme-okaidia .token.number{
+	color: #ae81ff;
+}
+
+.prisim-theme-okaidia .token.selector,
+.prisim-theme-okaidia .token.attr-name,
+.prisim-theme-okaidia .token.string,
+.prisim-theme-okaidia .token.builtin {
+	color: #a6e22e;
+}
+
+
+.prisim-theme-okaidia .token.operator,
+.prisim-theme-okaidia .token.entity,
+.prisim-theme-okaidia .token.url,
+.prisim-theme-okaidia .language-css .token.string,
+.prisim-theme-okaidia .style .token.string,
+.prisim-theme-okaidia .token.variable {
+	color: #f8f8f2;
+}
+
+.prisim-theme-okaidia .token.atrule,
+.prisim-theme-okaidia .token.attr-value
+{
+	color: #e6db74;
+}
+
+
+.prisim-theme-okaidia .token.keyword{
+color: #66d9ef;
+}
+
+.prisim-theme-okaidia .token.regex,
+.prisim-theme-okaidia .token.important {
+	color: #fd971f;
+}
+
+.prisim-theme-okaidia .token.important {
+	font-weight: bold;
+}
+
+.prisim-theme-okaidia .token.entity {
+	cursor: help;
+}
+
