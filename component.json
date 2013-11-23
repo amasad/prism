@@ -11,6 +11,7 @@
   ],
   "styles": [
     "prism.css",
-    "funky.css"
+    "funky.css",
+    "okaidia.css"
   ]
 }
