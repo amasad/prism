@@ -33,7 +33,7 @@
 }
 
 .prism-theme-okaidia :not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+.prism-theme-okaidia pre[class*="language-"] {
 	background: #272822;
 }
 
